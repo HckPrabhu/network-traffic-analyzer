@@ -154,16 +154,3 @@ Do not use in production environments. The developers assume no liability for mi
 
 
 
-
-## How to Use
-Create the database/ folder manually.
-
-Rename .env.example to .env and add credentials if using Twilio.
-
-## Run
-
-#bash:
-
-sudo python analyzer/packet_analyzer.py  # Terminal 1
-
-python analyzer/dashboard/app.py         # Terminal 2
