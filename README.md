@@ -32,7 +32,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/network-traffic-analyzer.git
+git clone https://github.com/HckPrabhu/network-traffic-analyzer.git
 cd network-traffic-analyzer
 
 # Create a virtual environment (recommended)
