@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Traffic Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Network Traffic Analysis</h1>
+        <div class="grid">
+            <div class="card">
+                <h2>Traffic by IP</h2>
+                <div id="ipChart"></div>
+            </div>
+            <div class="card">
+                <h2>Protocol Distribution</h2>
+                <div id="protocolChart"></div>
+            </div>
+            <div class="card full-width">
+                <h2>Live Traffic Plot</h2>
+                <img id="trafficPlot" src="" alt="Traffic Plot">
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
